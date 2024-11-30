@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Website</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header class="sticky">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+            <button class="btn" onclick="location.href='#signin'">Sign In</button>
+        </nav>
+    </header>
+    <main>
+        <div class="item-settings">
+            <h3>Camera</h3>
+            <div class="controlls">
+                <img class="settings-image" src="../resources/images/security-camera.jpg" alt="Camera">
+                <div class="toggles">
+                    <div class="toggle">
+                        <span class="toggle-text">Ring Alarm</span>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="toggle">
+                        <span class="toggle-text">Motion Detection</span>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="toggle">
+                        <span class="toggle-text">Motion Alerts</span>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="toggle">
+                        <span class="toggle-text">Motion Warning</span>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="settings-buttons">
+                <button class="settings-btn">
+                    <img src="../resources/icons/running.png" alt="running">
+                    <span>Motion Settings</span>
+                </button>
+                <button class="settings-btn">
+                    <img src="../resources/icons/setting.png" alt="settings">
+                    <span>Device Settings</span>
+                </button>
+                <button class="settings-btn">
+                    <img src="../resources/icons/group.png" alt="group">
+                    <span>Shared Access</span>
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dummy Website</p>
+    </footer>
+</body>
+</html>
